@@ -1,0 +1,13 @@
+#pad-box {
+  width: 500px;
+  height: 500px;
+  background-color: black;
+  margin: 50px auto;
+  border: 5px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2.5em;
+  text-align: center;
+}
