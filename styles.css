@@ -2,12 +2,34 @@
   width: 500px;
   height: 500px;
   background-color: black;
-  margin: 50px auto;
-  border: 5px solid black;
+  margin: 20px auto;
+  border: 3px solid black;
+  border-radius: 3px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   font-size: 2.5em;
   text-align: center;
+}
+
+#controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#toggle-sound {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  transition: background 0.3s;
+}
+
+#toggle-sound:hover {
+  opacity: 0.8;
 }
