@@ -1,21 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Light-Pulse</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Light-Pulse</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
+  <body>
+    <div id="layout">
+      <div id="pad-box">Move your cursor here</div>
 
-<body>
-  <div id="pad-box">Move your cursor here</div>
+      <div class="canvas-wrapper">
+        <canvas id="stain" width="500" height="500"></canvas>
+        <div class="canvas-text">Click Here</div>
+      </div>
+    </div>
 
-  <div id="controls">
-    <button id="toggle-sound">On / Off</button>
-  </div>
+    <div id="controls">
+      <button id="toggle-sound">On / Off</button>
+    </div>
 
-  <script src="script.js"></script>
-</body>
-
+    <script type="module" src="index.js"></script>
+  </body>
 </html>
